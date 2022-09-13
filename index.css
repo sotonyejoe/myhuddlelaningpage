@@ -11,6 +11,7 @@
     display:grid;
     background-image:url(images/bg-hero-desktop.svg) ;
     width:100%;
+    
 }
 .nav{
     margin:50px;
@@ -18,9 +19,9 @@
     display:inline;
     
 }
-.logo{
-    width:80px;
-    height:80px;
+#logo{
+    width:200px;
+    height:auto;
 }
 .try-button{
     background-color: #ffff;
@@ -54,8 +55,8 @@
 
 }
 .mockup{
-    width:100vh;
-    height:70vh;
+    width:100%;
+    height:auto;
 
 }
 .para-text{
@@ -86,8 +87,14 @@
     padding-top:80px;
     
 }
+img{
+    
+    max-width:100%;
+    height:auto;
+    object-fit:contain;
+}
 
-.section-one{
+.section-one, .section-two, .section-three{
     display:flex;
     width:80%;
     height:80vh;
@@ -96,10 +103,8 @@
     border-radius:15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.sec-text-one{
-    margin:30px;
+.sec-text-one, .sec-text-two, .sec-text-three{
     padding:30px;
-    float: left;
 }
 .grow{
     font-size:24px;
@@ -112,37 +117,13 @@
     font-size:18px;
     padding-top:10px;
     color: hsl(208, 11%, 55%);
-    width:85%;
-  
-    
-}
-.grow-together{
-    width:90wh;
-    height:65vh;
+    width:85%;    
 }
 .section-body-two{
     display:flex;
     width:100%;
     align-items:center;
     justify-content: center;  
-}
-.section-two{
-    display:flex;
-    width:80%;
-    height:80vh;
-    padding:40px;
-    margin:20px;
-    border-radius:15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
-}
-.flow-conversation{
-    width:90wh;
-    height:65vh;
-}
-.sec-text-two{
-    margin:30px;
-    padding:30px; 
-    
 }
 .flow{
     font-size:24px;
@@ -163,19 +144,6 @@
     align-items:center;
     justify-content: center;   
 }
-.section-three{
-    display:flex;
-    width:80%;
-    height:80vh;
-    padding:40px;
-    margin:20px;
-    border-radius:15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
-}
-.sec-text-three{
-    margin:30px;
-    padding:30px; 
-}
 .user{
     font-size:24px;
     font-family:'Open sans', sans-serif;
@@ -187,10 +155,6 @@
     padding-top:10px;
     color: hsl(208, 11%, 55%);
     width:85%;
-}
-.user-image{
-    width:90wh;
-    height:65vh;
 }
 .ready-container{
     display:flex;
@@ -204,15 +168,12 @@
     padding:40px;
     margin:20px;
     border-radius:15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
-   
-    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
 }
 .huddle-footer{
     background-color: hsl(192, 100%, 9%);
     width:100%;
     height:70vh;
    
-    
-    margin-top:-20vh;
+ 
 }
