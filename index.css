@@ -9,9 +9,10 @@
 }
 .container{
     display:grid;
-    background-image:url(images/bg-hero-desktop.svg) ;
+    background-image:url(images/bg-hero-mobile.svg) ;
+    background-image: cover;
     width:100%;
-    grid-template-columns: repeat(auto-fit,100%);    
+    /* grid-template-columns: repeat(auto-fit,100%);     */
 }
 .nav{
     margin:50px;
@@ -141,13 +142,13 @@ img{
  
 }
 .ready-container{
-    transform:translate(25%, -30%); 
-     /* padding:5px 10px; */
+    transform:translate(30%, -30%); 
+   
    
 }
-.ready-to-build{
+.ready-to-build{ 
     width:45%;
-    height:30vh;
+    height:35vh;
     border-radius:15px;
     background-color:#fff;
     justify-content:center;
@@ -260,14 +261,14 @@ ul{
 
  
 }
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     .container{
-        grid-template-columns:100%;
+       max-width:100%; 
     }
   
      #logo{
          /* margin:5px; */
-         width:60px;
+         max-width:60%;
          height:auto;
      }
      .nav{
@@ -275,6 +276,7 @@ ul{
          /* padding: 5px; */
      }
      .try-button{
+         max-width:60%;
         padding: 5px 15px;
      }
      .hero-text{
