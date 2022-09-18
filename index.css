@@ -232,8 +232,7 @@ ul{
      }
     .section-one, .section-two, .section-three{
         display:block;
-        top:0;
-        left:0;   
+        
     }
     .section-body, .section-body-two, .section-body-three{
         display:flex;
@@ -262,15 +261,18 @@ ul{
  
 }
 @media screen and (max-width: 375px){
+    .container{
+        grid-template-columns:100%;
+    }
   
      #logo{
-         margin:10px;
-         width:100px;
+         /* margin:5px; */
+         width:60px;
          height:auto;
      }
      .nav{
-         margin:20px;
-         padding: 5px;
+         margin:4px;
+         /* padding: 5px; */
      }
      .try-button{
         padding: 5px 15px;
