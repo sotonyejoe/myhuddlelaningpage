@@ -230,16 +230,28 @@ p {
 
 @media screen and (max-width:768px){
   #header{
-    height:150vh;
+    height:110vh;
   }
   .logo {
-      margin-left: 23px;
-      margin-right: 23px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .logo img {
+    width: 130px;
+    height:20px;
+    margin-top: 20px;
+  }
+  .logo button {
+    margin-top: 20px;
+  }
+  .try-btn{
+    width:110px;
+    height:30px;
   }
   .container{
     display:block;
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .left-container-col, .right-container-col {
     flex-basis: 100%;
@@ -248,15 +260,19 @@ p {
   .left-container-col{
     justify-content:center;
     text-align:center;
-    font-size: 30px;
+    /* font-size: 30px; */
+  }
+  .left-container-col, .build-text{
+    margin-top: 20px;
+    font-size: 25px;
   }
   p {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
   }
   .right-container-col img{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   /*----------- Grow together ---------------*/
@@ -338,7 +354,7 @@ p {
 .footer-link-opt{
   grid-template-columns:1fr;
   grid-gap:18px;
-  padding-top:-10px;
+  padding-top:0 10px 0 10px;
 }
 .link-opt-one, .link-opt-two, .link-opt-three, .link-opt-four{
  margin-top:15px;
