@@ -229,9 +229,6 @@ p {
 /*--------------- media queries -------------------------- */
 
 @media screen and (max-width:768px){
-  #header{
-    height:110vh;
-  }
   .logo {
       margin-left: 20px;
       margin-right: 20px;
@@ -263,12 +260,16 @@ p {
     /* font-size: 30px; */
   }
   .left-container-col, .build-text{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 25px;
   }
   p {
     font-size: 14px;
     margin-top: 10px;
+  }
+  .get-btn{
+    width:40vh;
+    height:40px;
   }
   .right-container-col img{
     width: 100%;
@@ -331,7 +332,6 @@ p {
 }
 /*----------- Footer ---------------*/
 #huddle-footer{
-  height:125vh;
   margin-top:100px;
 }
 .box{
