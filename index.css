@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 #header {
-  height: 100vh;
+  height: 95vh;
   background-color: hsl(193, 100%, 96%);
   background-image: url(images/bg-hero-mobile.svg);
   background-position: center;
@@ -287,7 +287,7 @@ p {
   }
   .right-container-col img {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   /*----------- Grow together ---------------*/
