@@ -93,7 +93,7 @@ p {
   padding:30px;
 }
 .grow-left-col{
-  max-width:600px;
+  /* width:600px; */
 }
 .grow-left-col p{
   font-size:18px;
@@ -226,19 +226,20 @@ p {
   font-size:18px;
 }
 
-/*--------------- media queries --------------------------*/
+/*--------------- media queries -------------------------- */
 
 @media screen and (max-width:768px){
   #header{
-    margin: 0 auto;
     height:150vh;
   }
   .logo {
-    margin-left: 30px;
-    margin-right: 30px;
+      margin-left: 23px;
+      margin-right: 23px;
   }
   .container{
     display:block;
+    margin-left: 23px;
+    margin-right: 23px;
   }
   .left-container-col, .right-container-col {
     flex-basis: 100%;
@@ -249,58 +250,76 @@ p {
     text-align:center;
     font-size: 30px;
   }
+  p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .right-container-col img{
+    width: 100%;
+    margin-top: 80px;
+  }
 
   /*----------- Grow together ---------------*/
 #grow-togeda{
-  margin: 20px;
+  margin: 10px;
   align-items: center;
   justify-content:center;
   margin-top:40px; 
 }
 .grow-left-col, .grow-right-col{
+  flex-basis: 100%;
   padding:35px;
+  text-align:center;
+  justify-content: center;
 }
 .grow-left-col p{
-  font-size:13px;
+  font-size:16px;
 }
 .grow-text,.flow-text, .user-text{
-  font-size: 18px;
+  font-size: 24px;
 }
 .grow-right-col img{
-  width:80%;
+  width:100%;
 }
 
 /*----------- Flowing Conversation ---------------*/
 #flow-convasation, #your-user{
-  margin: 20px;
+  margin: 10px;
 }
 .flow-left-col, .flow-right-col{
+  flex-basis: 100%;
   padding:35px;
+  text-align:center;
+  justify-content: center;
 }
 .flow-left-col img{
-  width:80%;
+  width:100%;
 }
 .flow-right-col p{
-  font-size:13px;
+  font-size:16px;
 }
 
 /*----------- Your Users ---------------*/
 
 .user-left-col, .user-right-col{
+  flex-basis: 100%;
   padding:35px;
+  text-align:center;
+  justify-content: center;
 }
 .user-right-col img{
-  width:80%;
+  width:100%;
 }
 .user-left-col p{
-  font-size:13px;
+  font-size:16px;
 }
 /*----------- Footer ---------------*/
 #huddle-footer{
+  height:125vh;
   margin-top:100px;
 }
 .box{
-  width:75vh;
+  width:65vh;
    height:25vh;
 }
 .buildcom-text{
@@ -317,18 +336,19 @@ p {
   width:150px;
 }
 .footer-link-opt{
-  grid-template-columns:2fr 1fr 1fr;
+  grid-template-columns:1fr;
   grid-gap:18px;
+  padding-top:-10px;
 }
 .link-opt-one, .link-opt-two, .link-opt-three, .link-opt-four{
  margin-top:15px;
 }
 .location, .phone, .email{
-  grid-column-gap:20px;
+  grid-column-gap:10px;
   padding-bottom:13px
 }
 .link-opt-one small{
-  padding-bottom: 13px;
+  padding-bottom: 5px;
   font-size:15px;
 }
 .link-opt-two small{
@@ -340,13 +360,13 @@ p {
   font-size:15px;
 }
 .link-opt-four ul{
-  grid-column-gap:9px;
-  font-size:15px;
+  grid-column-gap:7px;
+  font-size:17px;
 }
 }
 /*--------------- media queries --------------------------*/
 
-@media screen and (max-width:375px){
+/* @media screen and (max-width:375px){
   #header{
     margin: 0 auto;
     height:120vh;
@@ -383,9 +403,9 @@ p {
   .right-container-col img{
     width: 100%;
     margin-top: 20px;
-  }
+  } */
 
-  /*----------- Grow together ---------------*/
+  /* ----------- Grow together ---------------
 #grow-togeda{
   margin: 10px;
   align-items: center;
@@ -410,7 +430,7 @@ p {
 }
 
 /*----------- Flowing Conversation ---------------*/
-#flow-convasation, #your-user{
+/* #flow-convasation, #your-user{
   margin: 20px;
 }
 .flow-left-col, .flow-right-col{
@@ -425,10 +445,10 @@ p {
 }
 .flow-right-col p{
   font-size:14px;
-}
+} */
 
 /*----------- Your Users ---------------*/
-
+/* 
 .user-left-col, .user-right-col{
   padding:30px;
   flex-basis:100%;
@@ -441,11 +461,11 @@ p {
 }
 .user-left-col p{
   font-size:14px;
-}
+} */
 
 
 /*----------- Footer ---------------*/
-#huddle-footer{
+/* #huddle-footer{
   height:110vh;
 }
 .box{
@@ -493,5 +513,5 @@ p {
 }
 .link-opt-four ul{
   font-size:16px;
-}
-}
+} */
+/* } */
