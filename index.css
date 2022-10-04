@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 #header {
-  height: 70vh;
+  height: 100vh;
   background-color: hsl(193, 100%, 96%);
   background-image: url(images/bg-hero-mobile.svg);
   background-position: center;
@@ -155,7 +155,7 @@ p {
 /*----------- Footer ---------------*/
 #huddle-footer {
   background: hsl(192, 100%, 9%);
-  height: 70vh;
+  height: 100vh;
   margin-top: 140px;
 }
 .build-community {
@@ -248,10 +248,10 @@ p {
   .logo img {
     width: 130px;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .logo button {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .try-btn {
     width: 110px;
@@ -274,12 +274,12 @@ p {
   }
   .left-container-col,
   .build-text {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
   }
   p {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .get-btn {
     width: 40vh;
@@ -287,7 +287,7 @@ p {
   }
   .right-container-col img {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   /*----------- Grow together ---------------*/
